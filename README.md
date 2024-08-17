@@ -29,8 +29,11 @@ You can open the file directly or use a local server (like the Live Server exten
 The website can be deployed using any static web hosting service such as GitHub Pages, Netlify, or Vercel.<br>
 <h4>Deploying on GitHub Pages:</h4><br>
 <ul>
-  Push your code to GitHub:
+<li>Push your code to GitHub:</li>
 <Li> git push origin main</li>
+<li>Go to your repository on GitHub, navigate to the "Settings" tab, and scroll down to the "Pages" section.<br><li>
+
+<li>Select the main branch and /root directory, then save. Your website will be live at https://TAT-HEER.github.io/tatheer-portfolio.</li>
 </ul>
 
 
