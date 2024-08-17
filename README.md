@@ -9,10 +9,11 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
   <b>Skills & Experience:</b> Highlights my expertise in data analysis, Python, Django, and more..<br>
   <b>Contact Form:</b> A functional contact form connected to Google Sheets for easy communication..<br>
   <h4>Technologies Used</h4>
-  <ui>HTML5: For structuring the content.<br>
-CSS3: For styling and layout, including Flexbox and Grid for responsive design..<br>
-JavaScript: For dynamic content, user interactions, and form validation..<br>
-Google Apps Script: For handling form submissions to Google Sheets..<br>   
+  <ui>
+  <li> HTML5: For structuring the content.<br></li>
+   <li>CSS3: For styling and layout, including Flexbox and Grid for responsive design..<br></li>
+    <li>JavaScript: For dynamic content, user interactions, and form validation..<br></li>
+   <li>Google Apps Script: For handling form submissions to Google Sheets..<br>   </li>
   </ui>
 <h4>Getting Started</h4><br>
 To view the website locally:<br>
@@ -28,8 +29,8 @@ You can open the file directly or use a local server (like the Live Server exten
 The website can be deployed using any static web hosting service such as GitHub Pages, Netlify, or Vercel.<br>
 <h4>Deploying on GitHub Pages:</h4><br>
 <ul>
- Push your code to GitHub:/<br>
- git push origin main
+  Push your code to GitHub:
+<Li> git push origin main</li>
 </ul>
 
 
