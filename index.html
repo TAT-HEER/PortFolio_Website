@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d896a8fe6.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</head
+<body> 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/tatheer-high-resolution-logo-white.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Tatheer <br></span>Zahra from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/portFOLIO.jpeg" alt="Profile Picture" style="width: 100%; max-width: 300px; height: auto;">
+                </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am Tatheer Zahra, a data analyst passionate about turning data into actionable insights. 
+                             With expertise in Python, SQL, and data visualization, I focus on creating predictive models and efficient data systems to drive business growth. 
+                             Currently pursuing a B.S. in Computer Science, I have worked on projects like an ERP Model and EDA for enhancing customer experience. I am dedicated to continuous learning and making data-driven decisions that lead to success.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('project')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>        
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Analysis</span><br>Clean and analyze data, create visual reports</li>
+                                <li><span>Python Developer</span><br>Automate tasks build applications and process data</li>
+                                <li><span>Django Web Developer</span><br>Developed Web Application Using Django</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="project">
+                            <ul>
+                                <li><span>ERP Model</span><br>Implement whole accounting life Cycle</li>
+                                <li><span>EDA Model</span><br>Exploratory Data Analysis using Python</li>
+                                <li><span>Django Web Application</span><br>Developing Web Application Using Django</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>Bachelors in Software Engineering</li>
+                                <li><span>Training by Microsoft</span><br>Azure AI Quest Challenge</li>
+                                <li><span>2019</span><br>Intermediate</li>
+
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----services---- -->
+
+ 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Django Web Developer</h2>
+            <p>Builds and maintains web applications using the Django framework, 
+                handling both front-end and back-end tasks, database management, security, and deployment, 
+                while continuously learning and collaborating with teams.</p>
+                 <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Analysis</h2>
+            <p>Proficient in leveraging powerful libraries such as
+                NumPy, Pandas, and Matplotlib to extract, clean, analyze, and
+                visualize data effectively. Skilled in collecting and interpreting
+                large datasets using SQL, Python, and R. Experienced in
+                statistical analysis, predictive modeling, and machine learning
+                techniques</p>
+                 <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python  Developer</h2>
+            <p>Skilled in building robust and efficient applications. 
+                Proficient in Python programming language, with expertise in web development, data analysis,
+                and automation.</p>
+                 <a href="#">Learn more</a>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ----CONTACT--- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tutheerzara01@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tatheer-zahra-884987226/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/TAT-HEER/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/t_a_t_h_e_e_r_5_5/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="image/TatheerZahra_resume.pdf" download class="btn btn2">Download Cv</a>
+
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+  
+</body>
+</html>
