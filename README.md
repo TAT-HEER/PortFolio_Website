@@ -19,10 +19,10 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
    <li>Google Apps Script: For handling form submissions to Google Sheets..<br>   </li>
   </ui>
 <h4>Getting Started</h4><br>
-To view the website locally:<br>
-
-<b>Clone the repository:</b><br>
-git clone https://github.com/TAT-HEER/tatheer-portfolio.git<br>
+<ul>To view the website locally:<br></ul>
+<ul><b>Clone the repository:</b><br>
+ git clone https://github.com/TAT-HEER/tatheer-portfolio.git<br>
+</ul>
 <b>Navigate to the project directory:</b><br>
 cd tatheer-portfolio<br>
 Open index.html in your browser:<br>
