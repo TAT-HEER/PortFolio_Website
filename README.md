@@ -9,15 +9,30 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
   <b>Skills & Experience:</b> Highlights my expertise in data analysis, Python, Django, and more..<br>
   <b>Contact Form:</b> A functional contact form connected to Google Sheets for easy communication..<br>
   <h4>Technologies Used</h4>
-HTML5: For structuring the content.<br>
+  <ui>HTML5: For structuring the content.<br>
 CSS3: For styling and layout, including Flexbox and Grid for responsive design..<br>
 JavaScript: For dynamic content, user interactions, and form validation..<br>
-Google Apps Script: For handling form submissions to Google Sheets..<br>
+Google Apps Script: For handling form submissions to Google Sheets..<br>   
+  </ui>
 <h4>Getting Started</h4><br>
 To view the website locally:<br>
 
 <b>Clone the repository:</b><br>
 git clone https://github.com/TAT-HEER/tatheer-portfolio.git<br>
 <b>Navigate to the project directory:</b><br>
+cd tatheer-portfolio<br>
+Open index.html in your browser:<br>
+You can open the file directly or use a local server (like the Live Server extension in Visual Studio Code) to view it.<br>
+
+<b>Deployment</b> <br>
+The website can be deployed using any static web hosting service such as GitHub Pages, Netlify, or Vercel.<br>
+<h4>Deploying on GitHub Pages:</h4><br>
+<ul>
+ Push your code to GitHub:/<br>
+ git push origin main
+</ul>
+
+
+
 
 
